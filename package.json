@@ -1,0 +1,15 @@
+{
+  "name": "mini-node-exporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:player0130/mini-node-exporter.git",
+  "author": "yuhua shi",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4"
+  }
+}
