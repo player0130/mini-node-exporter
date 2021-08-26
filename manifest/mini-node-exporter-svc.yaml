@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    run: mini-node-exporter
+  name: mini-node-exporter-svc
+spec:
+  type: NodePort
+  ports:
+    - port: 23333
+      protocol: TCP
+      targetPort: 23333
+      nodePort: 32333
+  selector:
+    run: mini-node-exporter
