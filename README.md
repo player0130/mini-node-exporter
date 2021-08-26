@@ -11,3 +11,7 @@ A node metrics exporter (Node.js)
 
 # Docker image
 [yuhuashi1117/mini-node-exporter](https://hub.docker.com/r/yuhuashi1117/mini-node-exporter)
+
+
+# Grafana dashboard
+![](https://cdn.jsdelivr.net/gh/player0130/image@master/1629959961473-%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202021-08-26%201.24.52.png)
